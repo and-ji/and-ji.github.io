@@ -46,10 +46,14 @@
 }
 
 
-h1, h2, p {
+h1, h2, p, li {
 	font-family: 'Space Mono', monospace;
 	color: #333;
 	font-style: normal;
+}
+
+h1, h2 {
+	font-weight: 600;
 }
 
 
