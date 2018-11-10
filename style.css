@@ -49,4 +49,7 @@
 h1, h2, p {
 	font-family: 'Space Mono', monospace;
 	color: #333;
+	font-style: normal;
 }
+
+
