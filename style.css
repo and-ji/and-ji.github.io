@@ -45,6 +45,9 @@
 
 }
 
+body {
+  font-size: calc(17px + (26 - 17) * ((100vw - 300px) / (1600 - 300)));
+}
 
 h1, h2, p, li {
 	font-family: 'Space Mono', monospace;
@@ -63,6 +66,9 @@ ul {
 li {
 	display: inline;
 	padding: 0 24px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.875em;
 }
 
 
