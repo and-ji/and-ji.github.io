@@ -103,3 +103,16 @@ li {
     font-size: 1em;
 }
 
+@media only screen and (max-width: 480px) {
+  a:visited {
+    color: #d46300;
+    background-color: #fcfcfc;
+  }
+  
+  a:active {
+    color: #333;
+    background-color: #d9f1d9;
+    font-weight: 100;
+  }
+}
+
