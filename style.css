@@ -62,7 +62,6 @@ a {
 body.hasHover a:hover {
     color: #333;
     background-color: #d9f1d9;
-    font-weight: 100;
 }
   
 
@@ -114,6 +113,10 @@ li {
   grid-row-gap: 2em;
 }
 
+.wrapper a:hover {
+	display: none;
+}
+
 span.headline {
   display: inline-block;
   margin-top: 150px;
@@ -124,7 +127,7 @@ span.headline {
 }
 
 .item-1 {
-  overflow: visibile;
+  overflow: visible;
   height: 150px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -159,7 +162,6 @@ body.hasHover a:hover {
   a:active {
     color: #333;
     background-color: #d9f1d9;
-    font-weight: 100;
   }
 }
 
