@@ -47,7 +47,7 @@
 
 
 body {
-    font-size: calc(17px + (26 - 17) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)));
     font-variant-ligatures: no-common-ligatures;
     width: 90%;
     margin: 0 auto;
@@ -63,6 +63,7 @@ a:hover {
   color: #333;
   background-color: #d9f1d9;
   font-weight: 100;
+  transition: .4s;
   z-index: 100; 
 }
   
