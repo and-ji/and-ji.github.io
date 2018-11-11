@@ -104,10 +104,6 @@ li {
 }
 
 @media only screen and (max-width: 480px) {
-  a:visited {
-    color: #d46300;
-    background-color: #fcfcfc;
-  }
   
   a:active {
     color: #333;
