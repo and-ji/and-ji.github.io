@@ -156,5 +156,29 @@ span.headline {
     color: #333;
     background-color: #d9f1d9;
   }
+
+ .wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
+    grid-template-rows: auto;
+ } 
+
+ .item-1, .item-2, .item3 {
+    height: 250px;
+ }
+
+ .item-1 {
+    background-position: center 100%;
+ }
+
+ .item-3 {
+    background-position: center 40%;
+ }
+
+ span.headline {
+   margin-top: 260px;
+   font-size: 1.5em;
+ }
 }
+
+
 
