@@ -113,16 +113,12 @@ li {
   grid-row-gap: 2em;
 }
 
-.wrapper a:hover {
-	display: none;
-}
-
 span.headline {
   display: inline-block;
-  margin-top: 150px;
   float: left;
   clear: left;
-  padding: 1px 0 1px 4px;
+  margin-top: 160px;
+  padding: 1px 0 4px 4px;
   font-size: 0.75em;  
 }
 
@@ -156,9 +152,6 @@ span.headline {
 
 @media only screen and (max-width: 480px) {
   
-body.hasHover a:hover {
-    display: none;
-  }
   a:active {
     color: #333;
     background-color: #d9f1d9;
