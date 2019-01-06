@@ -156,7 +156,7 @@ ul.contact {
     letter-spacing: 1px;
     font-size: 1em; }
 
-@media all and (min-width: 481px) {
+@media all and (min-width: 768px) {
   ul.projects li {
     width: 30%;
     float: left;
