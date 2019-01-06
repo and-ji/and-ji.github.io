@@ -84,7 +84,8 @@ ul.projects {
   overflow: hidden;
   text-align: center; }
   ul.projects li {
-    display: inline; }
+    display: inline;
+    margin: 8px auto; }
     ul.projects li div[class*="item"] {
       background-repeat: no-repeat;
       background-size: cover;
@@ -93,12 +94,14 @@ ul.projects {
       ul.projects li div[class*="item"]:hover, ul.projects li div[class*="item"]:active {
         opacity: 0.8; }
     ul.projects li .item-1 {
-      background-image: url("https://and-ji.github.io/Images/unicorns.jpg"); }
+      background-image: url("https://and-ji.github.io/Images/unicorns.jpg");
+      background-position: 0% 95%; }
     ul.projects li .item-2 {
       background-image: url("https://and-ji.github.io/Images/midas.jpg");
       background-position: 20% center; }
     ul.projects li .item-3 {
-      background-image: url("https://and-ji.github.io/Images/billsballot.jpeg"); }
+      background-image: url("https://and-ji.github.io/Images/billsballot.jpeg");
+      background-position: 0% 50%; }
     ul.projects li input[type=checkbox] {
       position: absolute;
       cursor: pointer;
@@ -118,7 +121,8 @@ ul.projects {
         transform: translate(-2px, 0) rotate(-45deg); }
     ul.projects li i {
       position: absolute;
-      transform: translate(0, -16px); }
+      transform: translate(0, -16px);
+      z-index: 2; }
       ul.projects li i:before, ul.projects li i:after {
         background-color: #d46300;
         content: "";
@@ -134,11 +138,9 @@ ul.projects {
       font-size: 12px;
       line-height: 16px;
       position: relative;
-      opacity: 1;
-      padding: 8px;
-      transform: translate(0, 0);
-      z-index: 2;
-      margin-top: 14px; }
+      padding: 24px 8px;
+      transform: translate(0%, 0%);
+      z-index: 1; }
 
 ul.contact {
   list-style: none;
