@@ -30,7 +30,8 @@ body {
   width: 90%; }
   body a {
     color: #d46300;
-    text-decoration: none; }
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent; }
     body a:hover {
       background-color: #d9f1d9;
       color: #333; }
