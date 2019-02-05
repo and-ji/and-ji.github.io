@@ -86,8 +86,7 @@ ul.projects {
   text-align: center; }
   ul.projects li {
     display: inline;
-    margin: 8px auto;
-    vertical-align: top; }
+    margin: 8px auto; }
     ul.projects li div[class*="item"] {
       background-repeat: no-repeat;
       background-size: cover;
@@ -169,4 +168,5 @@ ul.contact {
   ul.projects li {
     display: inline-block;
     width: 30%;
-    margin: 0 12px; } }
+    margin: 0 12px; 
+    vertical-align: top;} }
