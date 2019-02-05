@@ -105,7 +105,7 @@ ul.projects {
       background-position: 0% 50%; }
     ul.projects li .item-4 {
       background-image: url("https://and-ji.github.io/Images/fintech.jpg");
-      background-position: center center;}
+      background-position: center center; }
     ul.projects li input[type=checkbox] {
       position: absolute;
       cursor: pointer;
@@ -166,7 +166,6 @@ ul.contact {
 
 @media all and (min-width: 768px) {
   ul.projects li {
+    display: inline-block;
     width: 30%;
-    float: right;
     margin: 0 12px; } }
-
