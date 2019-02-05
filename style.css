@@ -161,7 +161,7 @@ ul.contact {
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   ul.projects li .item-4 {
-    background-size: contain;
+    background-size: contain !important;
     background-color: aliceblue; } }
 
 @media all and (min-width: 768px) {
