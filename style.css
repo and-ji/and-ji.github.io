@@ -86,7 +86,8 @@ ul.projects {
   text-align: center; }
   ul.projects li {
     display: inline;
-    margin: 8px auto; }
+    margin: 8px auto;
+    vertical-align: top; }
     ul.projects li div[class*="item"] {
       background-repeat: no-repeat;
       background-size: cover;
