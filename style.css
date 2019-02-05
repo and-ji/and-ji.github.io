@@ -103,6 +103,9 @@ ul.projects {
     ul.projects li .item-3 {
       background-image: url("https://and-ji.github.io/Images/billsballot.jpeg");
       background-position: 0% 50%; }
+    ul.projects li .item-4 {
+      background-image: url("https://and-ji.github.io/Images/fintech.jpg");
+      background-position: center center;}
     ul.projects li input[type=checkbox] {
       position: absolute;
       cursor: pointer;
