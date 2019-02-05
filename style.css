@@ -162,5 +162,10 @@ ul.contact {
 @media all and (min-width: 768px) {
   ul.projects li {
     width: 30%;
-    float: left;
+    float: right;
     margin: 0 12px; } }
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  ul.projects li .item-4 {
+    background-size: contain;
+    background-color: aliceblue; } }
