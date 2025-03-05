@@ -35,19 +35,29 @@ body {
     body a:hover {
       background-color: #d9f1d9;
       color: #333; }
-  body h1, body h2, body h3, body h4, body h5, body p, body ul, body li {
+  body h1, body h2 {
+    color: black;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+    font-style: normal; }
+
+  body h3, body h4, body h5 {
     color: #333;
     font-family: 'Space Mono', monospace;
     font-style: normal; }
+
   body h1, body h2, body h3, body h4, body h5 {
     font-weight: 400; }
-  body h2, body h3 {
+
+  body h3 {
     background-color: #d46300;
     color: #fff;
     display: inline-block;
-    padding-left: 8px; }
-  body h3 {
+    padding-left: 8px; 
     padding: 4px; }
+  
+  body p, body ul, body li {
+    font-family: 'Open Sans';
+    line-height: 1.5em;}
 
 /* holding onto this for now, in case I got it wrong 
 body.hasHover a:hover {
