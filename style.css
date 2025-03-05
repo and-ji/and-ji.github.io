@@ -24,14 +24,26 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-style: normal; 
     font-weight: 500;}
+    h2.pullquote {
+      font-family: 'EB Garamond', 'Times New Roman', serif;}
+
+  h3 {
+    text-transform: uppercase;
+  }
   
   p, ul, li {
     font-family: 'EB Garamond', 'Times New Roman', serif;
     line-height: 1.5em;}
     p.label {
       font-family: 'Open Sans', sans-serif;
-      text-transform: uppercase;
-    }
+      font-size: .875em;
+      font-weight: 300;
+      text-transform: uppercase;}
+
+  b {
+    font-weight: 600;}
+
+  
 
 /* holding onto this for now, in case I got it wrong 
 body.hasHover a:hover {
