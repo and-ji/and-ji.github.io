@@ -25,7 +25,8 @@ body {
     font-style: normal; 
     font-weight: 500;}
     h2.pullquote {
-      font-family: 'EB Garamond', 'Times New Roman', serif;}
+      font-family: 'EB Garamond', 'Times New Roman', serif;
+      font-weight: 400;}
 
   h3 {
     text-transform: uppercase;
