@@ -7,11 +7,11 @@ body {
   width: 90%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
   body a {
-    color: #d46300;
-    text-decoration: none; }
+    color: black;
+    text-decoration: none;}
     body a:hover {
       background-color: #d9f1d9;
-      color: #333; }
+      text-decoration: underline; }
 
   b {
     font-weight: 600;}
@@ -30,9 +30,6 @@ body {
     h2.pullquote {
       font-family: 'EB Garamond', 'Times New Roman', serif;
       font-weight: 400;}
-
-  h3 {
-    text-transform: uppercase;}
   
   p, ul, li {
     font-family: 'EB Garamond', 'Times New Roman', serif;
@@ -43,6 +40,10 @@ body {
       font-weight: 300;
       letter-spacing: .01rem;
       text-transform: uppercase;}
+      p.label.legal {
+        font-size: 0.75rem;
+        color: #737373;
+      }
       
   
   div.emp h4 {
