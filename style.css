@@ -8,9 +8,12 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
   body a {
     color: black;
-    text-decoration: none;}
+    text-decoration: underline;
+    text-decoration-color: #737373;
+    text-decoration-thickness: 1.25px;}
     body a:hover {
-      background-color: #d9f1d9;
+      background-color: #133d80cd;
+      color: white;
       text-decoration: underline; }
 
   b {
