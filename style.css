@@ -9,12 +9,13 @@ body {
   body a {
     color: black;
     text-decoration: underline;
-    text-decoration-color: #737373;
-    text-decoration-thickness: 1.25px;}
+    text-decoration-color: black;
+    text-decoration-thickness: 1px;}
     body a:hover {
-      background-color: #133d80cd;
-      color: white;
-      text-decoration: underline; }
+      background-color: #F0F0F0;
+      color: black;
+      text-decoration: underline; 
+      text-decoration-thickness: 2px;}
 
   b {
     font-weight: 600;}
