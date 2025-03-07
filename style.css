@@ -11,7 +11,6 @@ body {
     text-decoration: none;
     text-decoration-color: black;}
     body a:hover {
-      background-color: #F0F0F0;
       color: black;
       text-decoration: underline; 
       text-decoration-thickness: 1px;}
@@ -41,11 +40,13 @@ body {
       font-family: 'Open Sans', sans-serif;
       font-size: 1rem;
       font-weight: 300;
-      letter-spacing: .01rem;
-      text-transform: uppercase;}
+      letter-spacing: normal;
+      text-transform: normal;}
       p.label.legal {
         font-size: 0.75rem;
-        color: #737373;
+        color: #737373;}
+      p.label.top {
+        text-transform: uppercase;
       }
       
   
@@ -53,7 +54,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     font-weight: 700;
-    letter-spacing: .01rem;
+    letter-spacing: .005rem;
     margin-top: 2.5rem;
     margin-bottom: .875rem;
     text-transform: uppercase;}
