@@ -44,6 +44,7 @@ body {
       text-transform: normal;}
       p.label.legal {
         font-size: 0.75rem;
+        text-transform: uppercase;
         color: #737373;}
       p.label.top {
         text-transform: uppercase;
