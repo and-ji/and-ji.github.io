@@ -6,7 +6,7 @@
     <style>@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');</style>
     <link href="../style.css" rel="stylesheet">
 </head>
-<body>
+<body class="caseStudy">
     <br>
     <br>
     <p class="label top"><b>Forbes</b></p>
@@ -16,7 +16,11 @@
     <b>Duration:</b> 10 months, then ongoing<br>
     <b>Team:</b> Myself, 1 Product Designer, 1 Engineering Manager, 2-3 Engineers</p>
     <br>
-    <img src="/Images/list-expanded-states.png" alt="List profile expansed states" width="100%" height="auto">
+        <div class="image">
+            <img src="/Images/list-expanded-states.png" alt="List profile expansed states" width="100%" height="auto">
+            <p class="caption">The list template's responsive design eases information consumption across device types.</p>
+        </div>
+    <br>    
     <h2>Overview</h2>
     <p>Forbes publishes more than 130 lists each year. Even though these lists are thought of as a single product, each launch comes with a unique set of considerations that influence its content and design—varying publication frequencies, sponsorships, ranking methods, and subject matters (from people to companies to institutions). Some lists demand a dynamic, high-impact presentation, while others are more understated and straightforward. </p>
     <p>These attributes led to lists being considered separately, instead of as a cohesive product. This case study explains how I unified our design approach to the list product in response to the challenges posed by variance, and delivered significant operational and user-experience benefits along the way.</p>
@@ -38,22 +42,23 @@
     <br>
         <div class="image">
             <img src="/Images/list-templates-mocks.png" alt="Unified list templates in Figma" width="100%" height="auto">
-            <p class="caption">Unified list template</p>
+            <p class="caption">A unified list template sets a reusable standard that creates headroom for product innovation.</p>
         </div>
+    <br>    
     <h2>Process</h2>
     <p>In order to address these challenges, I spearheaded a project to consolidate design elements across all list pages into a unified template.</p>
         <div class="emp">
             <h4>Stakeholder Engagement</h4>
-            <p>I began by engaging with the content teams, who were as frustrated with list inefficiencies as we were. Through discussion, we identified that while the top of the list page—where users first land—is crucial for brand expression, roughly 90% of the page could be standardized without losing impact. (A notable exception were Under 30-branded lists, which warranted a distinct design due to their need for maximal visual flair).</p>
+            <p>I began by engaging with the content teams, who were as frustrated with list inefficiencies as we were. Through discussion, we identified that while the top of the list page—where users first land—is crucial for brand expression, roughly 90% of list page elements could be standardized without losing impact.</p>
     
             <h4>Component-Based Design</h4>
-            <p>Because we agreed that 90% of the page could be standardized, I advocated for component-based design, with adjustable properties to allow for managed variance where needed, and parity between components in design libraries and the list app. In collaboration with a junior designer, I developed a set of about a dozen components specifically for lists.</p>
+            <p>Because we agreed that 90% of list page elements could be standardized, I advocated for component-based design, with adjustable properties to allow for managed variance where needed, and parity between components in design libraries and the list app. In collaboration with a junior designer, I developed a set of about a dozen components specifically for lists.</p>
         
             <h4>Local Component Library</h4>
             <p>To prevent bloating our core design system, I established a local library dedicated to list components. Although the list library borrowed atomic elements from the main library, it also allowed the team to review and manage list-specific components independently. </p>
         </div>
     <br>
-    <h2 class="pullquote">90% of page elements could be standardized</h2>
+    <h2 class="pullquote">We identified that 90% of list page elements could be standardized.</h2>
     <br>
         <div class="emp">
             <h4>Redesigning the List Table</h4>
@@ -63,10 +68,11 @@
         </div>
     <br>
     
-
-    <img src="/Images/list-template-components.png" alt="List template components in Figma" width="100%" height="auto">
-        
-        
+        <div class="image">
+            <img src="/Images/list-template-components.png" alt="List template components in Figma" width="100%" height="auto">
+            <p class="caption">Components with adjustable properties preserve unique expression while setting guardrails against drift.</p>
+        </div>
+    <br>   
     <h2>Impact</h2>
     <p>The unification of our list templates delivered clear, measurable benefits:</p>
     <div class="emp">
@@ -74,11 +80,11 @@
         <p>Standardizing 90% of page elements cut down on both design inconsistencies and technical debt, and simplified template maintenance.</p>
     </div>
     <br>
-    <h2 class="pullquote">We reduced tickets per list launch by 80%</h2>
+    <h2 class="pullquote">We could now release a major list with as little as two tickets—an 80% reduction.</h2>
     <br>
     <div class="emp">
         <h4>Faster, More Efficient Launches</h4>
-        <p>Before unification, launching a high-profile list like Billionaires required 16-20 Jira tickets. After consolidation, it could be done with as few as 2 tickets—a reduction of over 80%.</p>    
+        <p>Before unification, launching a high-profile list like Billionaires required 16-20 Jira tickets. After deploying the new, unified template, the same list could be released with as little as 2 tickets—a reduction of over 80%.</p>    
         
         <h4>Improved User Experience</h4>
         <p>A configurable list table component enhanced mobile functionality—especially important given that 80% of our users access lists on mobile devices—while also improving overall performance.</p>

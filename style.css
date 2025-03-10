@@ -14,6 +14,9 @@ body {
       color: black;
       text-decoration: underline; 
       text-decoration-thickness: 1px;}
+  
+  body.caseStudy {
+    width: 90%; }
 
   b {
     font-weight: 600;}
@@ -30,8 +33,13 @@ body {
     font-style: normal; 
     font-weight: 500;}
     h2.pullquote {
+      color: black;
       font-family: 'EB Garamond', 'Times New Roman', serif;
-      font-weight: 400;}
+      font-weight: 400;
+      padding: 1rem;
+      margin: auto;
+      text-align: left;
+      width: 90%;}
   
   p, ul, li {
     font-family: 'EB Garamond', 'Times New Roman', serif;
@@ -52,11 +60,11 @@ body {
   
   p.caption {
     font-family: 'Open Sans', serif;
-    font-size: .875rem;
+    font-size: 12px;
     color: #737373;
     text-align: center;
     width: 100%;
-    margin-top: auto;}
+    margin: auto;}
   
   div.emp h4 {
     font-family: 'Open Sans', sans-serif;
@@ -71,7 +79,8 @@ body {
     margin-top: 0;}
 
   div.image {
-    width: 100%;}
+    width: 100%;
+    text-align: center;}
 
 
 
@@ -201,6 +210,14 @@ ul.contact {
     transform: translate(-50%, 85%); } }
 
 @media all and (min-width: 1024px) {
+  body.caseStudy {
+    width: 75%;}
+    h2.pullquote {
+      padding: 3rem;
+      text-align: center;
+      width: 75%;}
+    p.caption {
+    font-size: 14px}
   ul.projects li input[type=checkbox] {
     height: 10%; } }
 
