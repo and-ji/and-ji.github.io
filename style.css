@@ -227,6 +227,12 @@ ul.contact {
     background-color: aliceblue; } }
 
 @media all and (min-width: 768px) {
+  div.image.profile {
+    float: right;
+    margin: 1rem;
+    padding: 1rem 0 0 0;
+    width: 40%;
+    height: auto;}
   ul.projects li {
     display: inline-block;
     width: 30%;
