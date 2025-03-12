@@ -33,6 +33,11 @@
     <p>Our design library also contained separate sets of type styles for desktop and mobile devices, which complicated maintenance and slowed down updates to designs. Similarly, while there were separate UI colors for light and dark modes, they weren’t organized into standardized themes, which led to visual drift and bug fixes.</p>
     <p>By tokenizing colors and typography, I created shared elements that eliminated redundant styles, unified surfaces and streamlined work for both designers and engineers.</p>
     <br>
+    <div class="image">
+        <img src="/Images/design-tokens.png" alt="Design token diagram with primitives and semantic tokens applied to UI" width="100%" height="auto">
+        <p class="caption">Design tokens applied to UI. Primitive tokens alias values, and Semantic tokens alias primitives.</p>
+    </div>
+    <br>
     <h2>Process</h2>
     <p>Tokens work by assigning a semantic layer to a style that references a defined set of values. Those values are called primitives. The semantic layer remains consistent, even if the value that it references changes. This makes updates simpler and more efficient by requiring changes in only one place rather than across many. </p>
         <div class="emp">
