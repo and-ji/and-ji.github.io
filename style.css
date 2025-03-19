@@ -53,7 +53,7 @@ body {
       letter-spacing: normal;
       text-transform: normal;}
       p.label.legal {
-        font-size: 0.75rem;
+        font-size: 0.65rem;
         text-transform: uppercase;
         color: #737373;}
       p.label.top {
@@ -70,8 +70,8 @@ body {
   
   div.emp h4 {
     font-family: 'Rubik', sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: .875rem;
+    font-weight: 500;
     margin-top: 2.5rem;
     margin-bottom: .875rem;
     text-transform: uppercase;}
