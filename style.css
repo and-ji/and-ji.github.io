@@ -90,6 +90,8 @@ body {
       padding: 3rem;
       text-align: center;
       width: 75%;}
+    div.emp h4 {
+      font-size: 1rem;}
     p.caption {
       font-size: 14px;
       max-width: 80%};
