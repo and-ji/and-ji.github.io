@@ -55,6 +55,12 @@ body {
       margin: auto;
       text-align: left;
       width: 90%;}
+
+  iframe {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
   
   p {
     font-family: 'EB Garamond', 'Times New Roman', serif;
