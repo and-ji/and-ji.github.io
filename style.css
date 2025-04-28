@@ -27,8 +27,7 @@ body {
     
     a:hover::before {
       transform-origin: left;
-      transform: scaleX(1);
-    }
+      transform: scaleX(1);}
   
   body.caseStudy {
     width: 90%; }
@@ -36,22 +35,13 @@ body {
   b {
     font-weight: 500;}
 
-  div.summary {
-    font-family: 'Rubik', sans-serif;
-    font-size: 1rem;
-    line-height: 1.5em;
-    font-weight: 300;
-  }
-
   h1 {
     color: black;
     font-family: 'EB Garamond', 'Times New Roman', serif;
     font-style: normal; 
     font-weight: 400;}
     h1.name {
-      font-size: 2.75rem;
-    }
-    
+      font-size: 2.75rem;}
 
   h2, h3, h4, h5 {
     color: black;
@@ -70,8 +60,7 @@ body {
   iframe {
     margin: 0 auto;
     display: block;
-    width: 100%;
-  }
+    width: 100%;}
   
   p {
     font-family: 'EB Garamond', 'Times New Roman', serif;
@@ -81,8 +70,7 @@ body {
       font-size: 1rem;
       font-weight: 300;}
       p.label a {
-        color: black;
-      }
+        color: black;}
       p.label.legal {
         font-size: 0.65rem;
         text-transform: uppercase;
@@ -90,8 +78,7 @@ body {
       p.label.top {
         text-transform: uppercase;
         font-size: .875rem;
-        font-weight: 500;
-      }
+        font-weight: 500;}
   
   p.caption {
     font-family: 'Rubik', sans-serif;
@@ -115,6 +102,13 @@ body {
   div.image {
     text-align: center;
     width: 100%;}
+
+  div.summary {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+    font-weight: 300;
+    max-width: 90%;}
 
 
 @media all and (min-width: 1024px) {
