@@ -36,11 +36,22 @@ body {
   b {
     font-weight: 500;}
 
+  div.summary {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+    font-weight: 300;
+  }
+
   h1 {
     color: black;
     font-family: 'EB Garamond', 'Times New Roman', serif;
     font-style: normal; 
     font-weight: 400;}
+    h1.name {
+      font-size: 2.75rem;
+    }
+    
 
   h2, h3, h4, h5 {
     color: black;
@@ -79,6 +90,7 @@ body {
       p.label.top {
         text-transform: uppercase;
         font-size: .875rem;
+        font-weight: 500;
       }
   
   p.caption {
@@ -115,12 +127,13 @@ body {
     div.emp h4 {
       font-size: 1rem;
       font-weight: 550;}
+    div.summary {
+      max-width: 65%;}
     p.caption {
       font-size: 14px;
       max-width: 80%};
     p.label.top {
-      font-size: 1rem;
-      }
+      font-size: 1rem;}
     }
 @media all and (min-width: 768px) {
   div.image.profile {
@@ -129,4 +142,6 @@ body {
     padding: 1rem 0 0 0;
     width: 40%;
     height: auto;}
+  h1.name {
+    font-size: 3.25rem;}
   }
