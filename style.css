@@ -70,7 +70,8 @@ body {
       font-size: 1rem;
       font-weight: 300;}
       p.label a {
-        color: black;}
+        color: #17409c;
+        font-weight: 450;}
       p.label.legal {
         font-size: 0.65rem;
         text-transform: uppercase;
@@ -109,6 +110,9 @@ body {
     line-height: 1.5em;
     font-weight: 300;
     max-width: 90%;}
+  
+  span.emp {
+    font-weight: 400;}
 
 
 @media all and (min-width: 1024px) {
