@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Case Study: Article Migration</title>
+    <meta content="Andres Jauregui • Product Design Leader" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+        </style>
+    <link href="../style.css" rel="stylesheet">
+</head>
+<body class="caseStudy">
+
+
+    <br>
+    <br>
+    <p class="label top">Forbes</p>
+    <h1>Driving Conversion And Elegance At Scale On Forbes’ Article Page Product</h1>
+    
+    <p class="label"><b>Role:</b> Design Director<br>
+    <b>Team:</b> Myself, Lead Experience Designer, 2 Designers, Product Owner, Engineering Manager, Lead Developer, 3 Engineers<br>
+    <b>Tech:</b> Figma, React, TypeScript, Storybook, Sass/CSS, React Testing Library<br>
+    <br>
+    <br>
+    <h2>Overview</h2>
+    <p>As a leader of a large, cross-functional team, I drove the creation, testing, and implementation of reusable components for Forbes’ standard article page, where 150M+ monthly visitors consume content on the platform.</p>
+    <p>Mentoring designers to consider system priorities alongside craft, I increased their confidence in contributing to the design system, expanded its capabilities, and reduced review cycles by 30%.</p>
+    <p>Together we produced an elegant, performant article page that supported a 40% lift to conversion and increased user engagement with high-intent actions.</p>
+    
+    <br>
+    <h2>Problem</h2>
+    <p>Forbes publishes content on half a dozen different article templates. In 2023, we decided to redesign this product, centralizing and standardizing its design, while migrating its tech to our React component library, which is powered by our design system.</p>
+    <p>We also made numerous improvements to the user experience, resolving headwinds caused by inconsistency, and promoting conversion-focused features.</p>
+    
+    <br>
+    <h2>Role</h2>
+    <p>This project had a large team behind it. I was one of two design leads, and managed component authoring and integration. I partnered with the other design lead to improve the UX of the page itself, and two other designers contributed in production roles. There was also a product owner, an engineering manager, a lead developer, and a pod of 3 engineers who worked on third-party integrations, ads, and components. </p>
+    <p>My strategic contributions built on my previous work migrating other critical site templates to our design system and React component library. I also partnered with product and engineering leads to scope the project based on a combination of user and business needs.</p>
+    <p>In the day-to-day, I reviewed design work and drove cross-functional alignment between design artifacts and components in the codebase. I also created documentation to level-set the logic and UI expectations for each component, and made design decisions informed by A/B testing data.</p>
+    
+    <br>
+    <h2>Approach</h2>
+    <p>Web Vitals data informed a lot of the problems that the team sought out to solve, and the migration process itself drew heavily on learnings from previous migrations, which I had led on the design side. Due to the importance of the product to the company’s business, and the number of stakeholders—editorial, engineering, product, design, revenue—the team conducted 5-6 sprints worth of discovery to clarify the project’s goals. </p>
+    <p>Tactically, we saved some time by aligning on what components could be deployed as-is, and which needed additional refinement to meet project goals. CI/CD pipelines with bucketing allowed us to A/B test solutions dynamically.</p>
+    
+    <br>
+    <h2>Challenges</h2>
+    <p>Legacy article templates were siloed. Each of the half-dozen page types had been considered on their own at creation, which lead to inconsistent user experience. There were often business reasons for this, and a lot of the UX heavy lifting involved recognizing and ameliorating various business cases, predominantly around ad placement and the promotion of paid program content.</p>
+    <p>Third-party integrations on the page added complexity. For example, updating the commenting experience took extra work because we had to submit changes via a form and work asynchronously with an external dev team. Although closer collaboration would have been ideal, the level of detail required of this method allowed us to produce meticulous documentation. </p>
+    <p>About 70% of the way through the migration, the company decided to replace a vendor for the product, which required the team to pivot to a homegrown solution, then pivot again to excluding the feature entirely.</p>
+
+    <br>
+    <h2>Solution</h2>
+    <p>Aside from adjustments to layout and headings, and replacing legacy architecture with reusable components, the team made a handful of changes that showed immediate impact to engagement and conversion on the page. </p>
+        <div class="emp">
+            <h4>Top of Article</h4>
+            <p>We implemented full-width headlines on desktop to better orient the reader and establish intention. Previously, headlines on some page types had been interrupted by a video unit. This was placed below the headline to maintain viewability while mitigating disruption to the reader experience as evidenced by reduction in bounce rate.</p>
+            
+            <h4>Recirculation Units</h4>
+            <p>Recirculation units programmatically drive traffic to content based on user interests. Previously these units had disparate styling and logic, because they evolved out of tests on the page. With this project, we settled on the most performant presentation and standardized it, benefitting session length.</p>
+            
+            <h4>Engagement Nav</h4>
+            <p>Previously, user actions important to conversion were located at the top of the article. We reduced the interaction cost of these actions by introducing an engagement nav that pins to the top of the page as the user scrolls. Providing persistent access to these controls improved conversion.</p>
+            
+            <h4>Paid Program Content</h4>
+            <p>We standardized a paid program article to load on scroll after the end of the original article on the page, replacing legacy promotional units to increase session length.</p>
+        </div>
+    <br>    
+    <h2>Impact</h2>
+    <p>Introducing the engagement nav increased user activity with the “save” and “comment” actions by more than 50%. Because these actions require an account to complete, we saw a commensurate uptick in registration, contributing toward a 40% site wide increase in conversion. </p>
+    <p>Placing an entry from the company’s paid programming catalogue at the bottom of each article page greatly increased the exposure of that content and provided additional value to paid programming clients. This also improved session length and time on site. </p>
+    <p>Migrating the various article types to a single system delivered a lot of efficiency, cutting development and iteration times, making the site more modular and maintainable, and establishing stronger guardrails for quality. </p>
+    
+    <br>
+    <h2>What I Learned</h2>
+    <p>This project validated processes that I had established in prior migrations and proved them applicable to larger teams. Both the process and its output showed elegance at scale, which was satisfying.</p>
+    <p>I developed as a people manager over the course of this project, learning how to better support designers working autonomously, while holding their work accountable to existing standards. I also had to communicate changes in the standard to cross-functional teams when required.</p>
+    <p>The most rewarding part of this project for me was deploying the engagement nav and watching it make a difference. This feature began its journey as a hand-drawn sketch I made during a product design team retreat. I enjoyed developing this idea into a feature with the team. It was exciting to see it take shape through iterations and then make an impact.</p>
+    <br>
+    <br>
+    <p class="label"> <p class="label"><a href="/index.html">Home</a> • <a href="/case-studies/design-tokens.html">Next Project</a></p>
+    <br>
+    <hr color="F0F0F0">
+    <p class="label legal">Copyright © 2025 Andres Jauregui. All rights reserved.</p>
+	<br>
+    <script src="/JS/scripts.js"></script>
+</body>
+</html>
