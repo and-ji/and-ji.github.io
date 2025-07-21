@@ -21,28 +21,45 @@
     <b>Team:</b> Myself, Lead Experience Designer, 2 Designers, Product Owner, Engineering Manager, Lead Developer, 3 Engineers<br>
     <b>Tech:</b> Figma, React, TypeScript, Storybook, Sass/CSS, React Testing Library<br>
     <br>
+        <div class="image">
+            <img src="/Images/article-template-mocks.png" alt="Image of article template mocks" width="100%" height="auto">
+            <p class="caption">The simple elegance of the redesigned Forbes article page belies the months of UX research and testing that went into it.</p>
+        </div>
     <br>
     <h2>Overview</h2>
     <p>As a leader of a large, cross-functional team, I drove the creation, testing, and implementation of reusable components for Forbes’ standard article page, where 150M+ monthly visitors consume content on the platform.</p>
     <p>Mentoring designers to consider system priorities alongside craft, I increased their confidence in contributing to the design system, expanded its capabilities, and reduced review cycles by 30%.</p>
     <p>Together we produced an elegant, performant article page that supported a 40% lift to conversion and increased user engagement with high-intent actions.</p>
-    
+    <br>        
+        <div class="image">
+            <img src="/Images/article-prototype-nav-optimize.gif" alt="Animation of prototype engagement nav" width="100%" height="auto">
+            <p class="caption">Prototype: The engagement nav sticks on scroll to afford user access to high-intent actions. Lowering the interaction cost of conversion features provided signifcant lift to KPIs.</p>
+        </div>
     <br>
     <h2>Problem</h2>
     <p>Forbes publishes content on half a dozen different article templates. In 2023, we decided to redesign this product, centralizing and standardizing its design, while migrating its tech to our React component library, which is powered by our design system.</p>
     <p>We also made numerous improvements to the user experience, resolving headwinds caused by inconsistency, and promoting conversion-focused features.</p>
-    
+    <br>        
+        <div class="image">
+            <img src="/Images/article-prototype-drawer-optimize.gif" alt="Animation of prototype comment drawer" width="100%" height="auto">
+            <p class="caption">Prototype: The commenting experience opens in a drawer. Commenting is one of several features in the article product that involves a third-party integration. Implementing UX improvements like the drawer thus required additional layers of management and coordination.</p>
+        </div>
     <br>
     <h2>Role</h2>
     <p>This project had a large team behind it. I was one of two design leads, and managed component authoring and integration. I partnered with the other design lead to improve the UX of the page itself, and two other designers contributed in production roles. There was also a product owner, an engineering manager, a lead developer, and a pod of 3 engineers who worked on third-party integrations, ads, and components. </p>
     <p>My strategic contributions built on my previous work migrating other critical site templates to our design system and React component library. I also partnered with product and engineering leads to scope the project based on a combination of user and business needs.</p>
     <p>In the day-to-day, I reviewed design work and drove cross-functional alignment between design artifacts and components in the codebase. I also created documentation to level-set the logic and UI expectations for each component, and made design decisions informed by A/B testing data.</p>
-    
+    <br>        
+        <div class="image">
+            <img src="/Images/article-card-promos.png" alt="Image of article card promo patterns" width="100%" height="auto">
+            <p class="caption">We A/B tested many features along the way, such these card layouts, which targeted session length by serving articles based on a user's history. In this case the data pointed us in another direction, but the rework was minimal since the layouts were based on existing components.</p>
+        </div>
     <br>
     <h2>Approach</h2>
     <p>Web Vitals data informed a lot of the problems that the team sought out to solve, and the migration process itself drew heavily on learnings from previous migrations, which I had led on the design side. Due to the importance of the product to the company’s business, and the number of stakeholders—editorial, engineering, product, design, revenue—the team conducted 5-6 sprints worth of discovery to clarify the project’s goals. </p>
     <p>Tactically, we saved some time by aligning on what components could be deployed as-is, and which needed additional refinement to meet project goals. CI/CD pipelines with bucketing allowed us to A/B test solutions dynamically.</p>
-    
+    <br>
+    <div id="project-zeta-testimonial"></div>
     <br>
     <h2>Challenges</h2>
     <p>Legacy article templates were siloed. Each of the half-dozen page types had been considered on their own at creation, which lead to inconsistent user experience. There were often business reasons for this, and a lot of the UX heavy lifting involved recognizing and ameliorating various business cases, predominantly around ad placement and the promotion of paid program content.</p>
@@ -65,12 +82,19 @@
             <h4>Paid Program Content</h4>
             <p>We standardized a paid program article to load on scroll after the end of the original article on the page, replacing legacy promotional units to increase session length.</p>
         </div>
+    <br>
+    <br>
+    <h2 class="pullquote">We realized a 50% increase to high-intent actions, contributing toward a site-wide lift to conversion.</h2>
     <br>    
     <h2>Impact</h2>
     <p>Introducing the engagement nav increased user activity with the “save” and “comment” actions by more than 50%. Because these actions require an account to complete, we saw a commensurate uptick in registration, contributing toward a 40% site wide increase in conversion. </p>
     <p>Placing an entry from the company’s paid programming catalogue at the bottom of each article page greatly increased the exposure of that content and provided additional value to paid programming clients. This also improved session length and time on site. </p>
     <p>Migrating the various article types to a single system delivered a lot of efficiency, cutting development and iteration times, making the site more modular and maintainable, and establishing stronger guardrails for quality. </p>
-    
+    <br>        
+        <div class="image">
+            <img src="/Images/article-nav-sketch.jpg" alt="Image of article card promo patterns" width="100%" height="auto">
+            <p class="caption">This is a photo of my hand-drawn sketch of the feature that became the engagement nav, proposing changes to the experience as the user scrolls down the article page.</p>
+        </div>
     <br>
     <h2>What I Learned</h2>
     <p>This project validated processes that I had established in prior migrations and proved them applicable to larger teams. Both the process and its output showed elegance at scale, which was satisfying.</p>
