@@ -16,5 +16,8 @@
     "url": "https://github.com/and-ji/and-ji.github.io/issues"
   },
   "homepage": "https://github.com/and-ji/and-ji.github.io#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "react-dom": "^19.1.0"
+  }
 }
