@@ -1,14 +1,8 @@
+import { createRoot } from 'react-dom/client'
+import { Navigation } from './components/Navigation'
 
-import ReactDOM from 'react-dom/client'
-
-function App() {
-  return <div>Hello from React!</div>
+const navigationContainer = document.querySelector('.react-navigation')
+if (navigationContainer) {
+  const root = createRoot(navigationContainer)
+  root.render(<Navigation />)
 }
-
-// Mount React when containers exist
-document.addEventListener('DOMContentLoaded', () => {
-  const container = document.getElementById('react-app')
-  if (container) {
-    ReactDOM.createRoot(container).render(<App />)
-  }
-})
