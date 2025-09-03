@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+import path from 'path'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
@@ -12,12 +13,13 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: './src/main.jsx'
+        main: './src/main.jsx',
+        navigation: './src/components/navigation.jsx'
       },
       output: {
-        entryFileNames: 'react-components.js',
-        chunkFileNames: 'react-components-[hash].js',
-        assetFileNames: 'react-components.[ext]'
+        entryFileNames: '[name].js',
+        chunkFileNames: '[name]-[hash].js',
+        assetFileNames: '[name].[ext]'
       }
     }
   }
