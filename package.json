@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "vite build",
-    "dev": "vite build --watch"
+    "dev": "vite --open"
   },
   "repository": {
     "type": "git",
